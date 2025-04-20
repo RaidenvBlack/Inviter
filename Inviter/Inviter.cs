@@ -26,6 +26,7 @@ namespace Inviter
     public class Inviter : IDalamudPlugin
     {
         public string Name => "Inviter";
+        
         public PluginUi Gui { get; private set; }
         internal Gui.Localizer Localizer => Gui.ConfigWindow._localizer;
         public Configuration Config { get; private set; }
